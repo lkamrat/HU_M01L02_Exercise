@@ -50,7 +50,8 @@ namespace MyProject
             a = (a / b);
             
             Console.WriteLine("a = {0}", a);  // The result will be 5
-            Console.WriteLine("b = {0}", b);  // The result will be 10
+            Console.WriteLine("b = {0}", b);  // The result will be 10 
+            //Test commit
         }
     }
 }
