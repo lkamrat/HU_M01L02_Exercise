@@ -40,16 +40,17 @@ namespace MyProject
             a = b;
             b = c;
 
-            Console.WriteLine("a = {0}", a);
-            Console.WriteLine("b = {0}", b);
+            Console.WriteLine("a = {0}", a);  // The result will be 10
+            Console.WriteLine("b = {0}", b);  // The result will be 5
 
             // Operators-03 Exercise
 
-            a = (a - b);
-            b = (b + b);
-
-            Console.WriteLine("a = {0}", a);
-            Console.WriteLine("b = {0}", b);
+            a = (a * b); 
+            b = (a / b);
+            a = (a / b);
+            
+            Console.WriteLine("a = {0}", a);  // The result will be 5
+            Console.WriteLine("b = {0}", b);  // The result will be 10
         }
     }
 }
